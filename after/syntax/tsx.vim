@@ -3,7 +3,7 @@
 "
 " Language: TSX (JavaScript)
 " Maintainer: Ian Ker-Seymer <i.kerseymer@gmail.com>
-" Depends: pangloss/vim-typescript
+" Depends: leafgarland/typescript-vim
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
