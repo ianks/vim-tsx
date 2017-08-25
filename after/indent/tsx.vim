@@ -71,7 +71,7 @@ fu! GetTsxIndent()
 
   " Use XML indenting if the syntax at the end of the previous line was either
   " TSX or was the closing brace of a tsBlock whose parent syntax was TSX.
-  if (SynXMLish(prevsyn) || SynTSXBlockEnd(prevsyn)) && SynXMLishAny(cursyn)
+  if (SynXMLishAny(prevsyn) || SynTSXBlockEnd(prevsyn)) && SynXMLishAny(cursyn)
     let ind = XmlIndentGet(v:lnum, 0)
 
     " Align '/>' with '<' for multiline self-closing tags.
